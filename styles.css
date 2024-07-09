@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+.bmi-calculator {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bmi-calculator h1 {
+  margin-top: 0;
+}
+
+.bmi-calculator form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bmi-calculator label {
+  margin-bottom: 10px;
+}
+
+.bmi-calculator input[type="number"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.bmi-calculator button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bmi-calculator button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
+
+.contact {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.contact h1 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact input[type="text"],.contact input[type="email"] {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contact textarea {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  height: 150px;
+  resize: vertical;
+}
+
+.contact button[type="submit"] {
+  padding: 15px 30px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.contact.form-group {
+  margin-bottom: 20px;
+}
+
+.contact.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact.form-group input[type="text"],.contact.form-group input[type="email"],.contact.form-group textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
